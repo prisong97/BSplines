@@ -29,5 +29,5 @@ plots = Bspline_plots(x_list, knots, spline_degree=spline_degree)
 
 plots.plot_bases()
 ```
-![title](Bsplines/Bsplines/plots/example1-degree-3.png)
+![Example 1](Bsplines/plots/example1-degree-3.png)
 
