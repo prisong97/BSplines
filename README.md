@@ -12,3 +12,21 @@ I found the following links helpful:
 - https://cran.r-project.org/web/packages/crs/vignettes/spline_primer.pdf
 
 ### Visualisation of B-splines basis functions
+To compute the B-spline bases, we need to specify:
+1. The degree of the polynomial,
+2. the vector of knot points,
+3. a vector containing the observations (x) for plotting the functions.
+
+The resulting number of basis functions is given by = (# of knot points) - (degree of polynomial + 1) 
+
+#### Example 1: Cubic basis functions
+```
+spline_degree = 3
+knots = [0,1/4,2/4,3/4,1]
+x_list = np.linspace(0,0.99999,1000)
+
+plots = Bspline_plots(x_list, knots, spline_degree=spline_degree)
+
+plots.plot_bases()
+```
+
