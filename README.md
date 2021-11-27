@@ -1,6 +1,6 @@
 ## Experimentation with B-Splines
 
-This code implements and visualises the B-splines basis functions. We implement these functions from scratch. This is a good exercise to check that I am understanding what's going on under the hood.
+This code implements and visualises the B-splines basis functions. We implement these functions from scratch. 
 
 ### Dependencies
 - numpy 1.20.1
