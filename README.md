@@ -19,7 +19,7 @@ To compute the B-spline bases, we need to specify:
 
 The resulting number of basis functions is given by = (# of knot points) - (degree of polynomial + 1) 
 
-#### Example 1: Cubic basis-splines functions
+#### Example 1: Cubic B-splines functions
 ```
 spline_degree = 3
 knots = [0,1/4,2/4,3/4,1]
