@@ -34,8 +34,8 @@ plots1.plot_bases()
 #### Example 2: Quadratic B-splines functions
 ```
 spline_degree2 = 2
-knots1 = [0,1,2,3,4,5]
-x_list1 = np.linspace(0,4.99999,1000)
+knots2 = [0,1,2,3,4,5]
+x_list2 = np.linspace(0,4.99999,1000)
 
 plots1 = Bsplines_plots(x_list2, knots2, spline_degree=spline_degree2)
 
